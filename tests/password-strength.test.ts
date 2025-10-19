@@ -16,4 +16,6 @@ describe('Calculate password strength', () => {
     test('Strong for complex password', () => {
         expect(calculatePasswordStrength('Abcdef1!23')).toBe('Strong');
     });
+
+
 });
